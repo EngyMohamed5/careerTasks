@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Travel reservation form </h1>
+    <h3>*denotes mandotory</h3>
+    <form action="">
+       
+            <div>
+                <label for="fullname">Full name*:</label>
+                <br>
+                <input id="fullname" name="fullname" type="text" placeholder="FirstName lastName" required>
+            </div>
+            
+
+           <div>
+                <label for="email">Email Address*:</label>
+                <br>
+                <input id="email" name="email" type="email" placeholder="Email_Address" required>
+            </div>
+
+           <div>
+            <label for="">Select Tour Package*:</label>
+            <br>
+            <select name="package" id="" required>
+                <option value="Goa" selected>Goa</option>
+              
+            </select>
+           </div>
+
+           <div>
+            <label for="date">Arrival date*:</label>
+            <input type="date" id="date" name="date" required>
+           </div>
+
+           <div>
+            <label >What Would You Like To Arrival?*</label>
+            <br>
+
+            <label for="1">Boarding</label>
+            <input type="checkbox" name="" id="1">
+            <br>
+            <label for="2">fooding</label>
+            <input type="checkbox" name="" id="2">
+            <br>
+            <label for="3">sight seeing</label>
+            <input type="checkbox" name="" id="3">
+         
+            <br>
+
+           </div>
+
+           <div>
+            <label for="num">Number of Persons*:</label>
+            <br>
+            <input type="text" id="num" placeholder="unknown_type" required>
+           </div>
+
+       
+           <div>
+            <label for="discount">Discount lable code:</label>
+            <br>
+            <input type="text"  placeholder="unknown_type" id="discount">
+           </div>
+                <div>
+                    <input id="box1" type="radio" name="term"> 
+                    <label for="box1">I agree</label>
+            
+                    <input id="box2" type="radio" name="term" > 
+                    <label for="box2">I disagree</label>
+                </div>
+                           
+        
+            <input type="submit" value="complete reservation">
+
+
+    </form>
+</body>
+</html>
